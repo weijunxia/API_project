@@ -17,7 +17,6 @@ app.use(logger('dev'))
 // TODO: Configure Routes
 // app.use('/api', AppRouter)
 
-// TODO: Write db/index.js
-// db.on('error', console.error.bind(console, 'MongoDB connection error:'))
+db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
 app.listen(PORT, () => console.log(`Server Running On Port:`, PORT))
