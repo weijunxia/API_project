@@ -1,4 +1,5 @@
 import React from 'react'
+
 import './blogpost.css'
 
 function Home() {
@@ -10,3 +11,4 @@ function Home() {
   )
 }
 export default Home
+
