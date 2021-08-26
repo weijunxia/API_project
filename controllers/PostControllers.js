@@ -12,7 +12,7 @@ const getAllPosts = async (req, res) => {
 const createNewPost = async (req, res) => {
   try {
     const results = await new Post(req.body)
-    await newPost.save()
+    await results.save()
     return res.status(201).json({ results })
   } catch (error) {
     return res.status(500).send(error.message)
