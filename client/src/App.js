@@ -14,7 +14,9 @@ function App() {
       <div className="App">
         <NavBar />
         <Banner />
-        <PostFeed />
+        <div className="postFeed">
+          <PostFeed />
+        </div>
       </div>
     </>
   )

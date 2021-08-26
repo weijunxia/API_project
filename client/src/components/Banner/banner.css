@@ -1,4 +1,6 @@
 img.banner {
   height: fit-content;
+  margin-bottom: 20px;
+  height: auto;
   width: 100%;
 }

@@ -1,13 +1,11 @@
 import React from 'react'
+import './authors.css'
 
-import './blogpost.css'
-
-function Home() {
+function Authors() {
   return (
     <div>
-      <div></div>
       <div></div>
     </div>
   )
 }
-export default Home
+export default Authors

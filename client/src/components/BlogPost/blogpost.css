@@ -9,6 +9,8 @@
 img.blogImage {
   height: 200px;
   width: auto;
+  align-items: center;
+  width: 75%;
 }
 
 .postTitle {
@@ -23,4 +25,10 @@ img.blogImage {
 
 .blogStory {
   font-size: 15px;
+  font-weight: 800;
+}
+
+img.blogImage {
+  height: 200px;
+  width: 200px;
 }
