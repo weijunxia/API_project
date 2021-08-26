@@ -1,5 +1,5 @@
 import React from 'react'
-import '/postfeed.css'
+import './postfeed.css'
 
 function PostFeed() {
   return (
