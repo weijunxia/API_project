@@ -19,7 +19,25 @@ const createNewPost = async (req, res) => {
   }
 }
 
+const editPost = async (req, res) => {
+  try {
+    /* const results = await */
+  } catch (error) {
+    return res.status(500).send(error.message)
+  }
+}
+
+const deletePost = async (req, res) => {
+  try {
+    // const results = await
+  } catch (error) {
+    return res.status(500).send(error.message)
+  }
+}
+
 module.exports = {
   getAllPosts,
-  createNewPost
+  createNewPost,
+  editPost,
+  deletePost
 }
