@@ -1,8 +1,9 @@
 import React from 'react'
 // Components
 import NavBar from './components/NavBar/NavBar'
-import PostFeed from './components/PostFeed/PostFeed'
 import Banner from './components/Banner/Banner'
+import PostFeed from './components/PostFeed/PostFeed'
+import Footer from './components/Footer/Footer'
 import CreatePost from './components/CreatePost/CreatePost'
 // styling
 import './App.css'
@@ -18,7 +19,9 @@ function App() {
         <div className="postFeed">
           <PostFeed />
         </div>
+        <Footer />
         <CreatePost />
+
       </div>
     </>
   )

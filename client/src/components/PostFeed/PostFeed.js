@@ -6,6 +6,10 @@ function PostFeed() {
   return (
     <div className="postFeedContainer">
       <BlogPost />
+      <BlogPost />
+      <BlogPost />
+      <BlogPost />
+      <BlogPost />
     </div>
   )
 }
