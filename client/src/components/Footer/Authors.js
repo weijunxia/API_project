@@ -1,11 +1,11 @@
 import React from 'react'
-import './careers.css'
+import './authors.css'
 
-function Career() {
+function Authors() {
   return (
     <div>
       <div></div>
     </div>
   )
 }
-export default Career
+export default Authors
