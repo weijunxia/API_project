@@ -80,11 +80,6 @@ to start the react development server
 
 ![Blog Entity Relationship Diagram](/images/BLOG%20ENTITY%20RELATIONSHIP%20DIAGRAM%20(1).png)
 
-<<<<<<< HEAD
-### Credits
-
-
-=======
 <br/>
 
 ## ⏳ Future Updates
@@ -100,4 +95,3 @@ to start the react development server
 ## 📢 Credits & Shoutouts
 
 Lorde - Solar Power
->>>>>>> 36a63c35777095cb93555b1abb8032b088271f73
