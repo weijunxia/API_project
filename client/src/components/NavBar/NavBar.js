@@ -5,17 +5,15 @@ import icon from '../images/user_favicon.png'
 
 function NavBar() {
   return (
-    <>
-      <div className="container">
-        <div className="logo">Blogr</div>
-        <div className="home">Home</div>
-        <NavLink to="/newpost">Create New Post</NavLink>
-        <div className="profile">
-          Profile
-          <img src={icon} alt="user" className="profile-photo" />
-        </div>
+    <div className="container">
+      <div className="logo">Blogr</div>
+      <div className="home">Home</div>
+      <NavLink to="/newpost">Create New Post</NavLink>
+      <div className="profile">
+        Profile
+        <img src={icon} alt="user" className="profile-photo" />
       </div>
-    </>
+    </div>
   )
 }
 

@@ -11,21 +11,19 @@ import './App.css'
 
 function App() {
   return (
-    <>
-      <div className="App">
-        <header>
-          <NavBar />
-        </header>
-        <main>
-          <Banner />
-          <div className="postFeed">
-            <PostFeed />
-          </div>
-          <Footer />
-          <CreatePost />
-        </main>
-      </div>
-    </>
+    <div className="App">
+      <header>
+        <NavBar />
+      </header>
+      <main>
+        <Banner />
+        <div className="postFeed">
+          <PostFeed />
+        </div>
+        <Footer />
+        <CreatePost />
+      </main>
+    </div>
   )
 }
 

@@ -4,10 +4,8 @@ import bannerPlaceholder from '../images/banner-placeholder.png'
 
 export default function Banner() {
   return (
-    <>
-      <div>
-        <img src={bannerPlaceholder} alt="banner" className="banner" />
-      </div>
-    </>
+    <div>
+      <img src={bannerPlaceholder} alt="banner" className="banner" />
+    </div>
   )
 }
