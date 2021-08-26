@@ -1,10 +1,10 @@
 const { Router } = require('express')
 // const controllers = require('../controllers')
-const postController = require('../controllers/PostControllers')
+const PostController = require('../controllers/PostControllers')
 const AppRouter = Router()
 
-AppRouter.get('/', (req, res) => res.send())
-AppRouter.get('/posts', postController.getAllPosts)
+// AppRouter.get('/', (req, res) => res.send())
+AppRouter.get('/posts', PostController.getAllPosts)
 // AppRouter.post('/posts', controllers.createPost)
 // AppRouter.put('/posts', controllers.updatePost)
 // AppRouter.delete('/posts', controllers.deletePost)
