@@ -3,6 +3,7 @@ import React from 'react'
 import NavBar from './components/NavBar/NavBar'
 import PostFeed from './components/PostFeed/PostFeed'
 import Banner from './components/Banner/Banner'
+import CreatePost from './components/CreatePost/CreatePost'
 // styling
 import './App.css'
 
@@ -17,6 +18,7 @@ function App() {
         <div className="postFeed">
           <PostFeed />
         </div>
+        <CreatePost />
       </div>
     </>
   )
