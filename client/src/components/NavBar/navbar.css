@@ -15,12 +15,15 @@
 }
 
 .create-post,
-.feed {
-  padding: 20px;
+.home {
+  padding: 10px;
+  cursor: pointer;
 }
 
 .profile {
+  margin-left: 10px;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .profile-photo {
