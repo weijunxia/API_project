@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  height: 40px;
+  width: 100%;
+  background-color: black;
+  position: sticky;
+  top: 0;
+  align-items: center;
+  color: white;
+}
+
+.logo {
+  flex: 1;
+  margin-left: 5px;
+}
+
+.create-post,
+.feed {
+  padding: 20px;
+}
+
+.profile {
+  margin-right: 10px;
+}
+
+.profile-photo {
+  margin-left: 5px;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
