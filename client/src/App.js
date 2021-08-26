@@ -1,8 +1,8 @@
 import React from 'react'
 // Components
 import NavBar from './components/NavBar/NavBar'
-import BlogpPost from './components/BlogPost/BlogPost'
 import PostFeed from './components/PostFeed/PostFeed'
+import Banner from './components/Banner/Banner'
 // styling
 import './App.css'
 
@@ -13,8 +13,8 @@ function App() {
     <>
       <div className="App">
         <NavBar />
+        <Banner />
         <PostFeed />
-        <BlogpPost />
       </div>
     </>
   )

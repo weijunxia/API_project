@@ -1,11 +1,11 @@
 import React from 'react'
+import BlogPost from '../BlogPost/BlogPost'
 import './postfeed.css'
 
 function PostFeed() {
   return (
-    <div>
-      <div>sdfd</div>
-      <div>sdf</div>
+    <div className="postFeedContainer">
+      <BlogPost />
     </div>
   )
 }

@@ -2,13 +2,13 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   width: 600px;
 }
 
 img.blogImage {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: auto;
 }
 
 .postTitle {
