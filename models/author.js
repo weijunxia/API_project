@@ -3,8 +3,7 @@ const { Schema } = require('mongoose')
 const Author = new Schema(
   {
     name: { type: String, required: true },
-    age: { type: Number },
-    gender: { type: String }
+    bio: { type: String }
   },
   { timestamps: true }
 )
