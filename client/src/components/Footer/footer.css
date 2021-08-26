@@ -1,0 +1,9 @@
+div.footerContainer {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  height: auto;
+  width: 100%;
+  margin-top: 10vh;
+  color: white;
+  background-color: black;
+}

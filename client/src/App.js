@@ -1,8 +1,9 @@
 import React from 'react'
 // Components
 import NavBar from './components/NavBar/NavBar'
-import PostFeed from './components/PostFeed/PostFeed'
 import Banner from './components/Banner/Banner'
+import PostFeed from './components/PostFeed/PostFeed'
+import Footer from './components/Footer/Footer'
 // styling
 import './App.css'
 
@@ -17,6 +18,7 @@ function App() {
         <div className="postFeed">
           <PostFeed />
         </div>
+        <Footer />
       </div>
     </>
   )
