@@ -1,5 +1,6 @@
 import React from 'react'
 import './postfeed.css'
+import './blogpost.js'
 
 function PostFeed() {
   return (
