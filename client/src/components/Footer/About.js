@@ -1,13 +1,11 @@
 import React from 'react'
+import './about.css'
 
-import './blogpost.css'
-
-function Home() {
+function About() {
   return (
     <div>
-      <div></div>
       <div></div>
     </div>
   )
 }
-export default Home
+export default About

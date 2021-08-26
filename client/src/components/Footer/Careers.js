@@ -1,13 +1,11 @@
 import React from 'react'
+import './careers.css'
 
-import './blogpost.css'
-
-function Home() {
+function Career() {
   return (
     <div>
-      <div></div>
       <div></div>
     </div>
   )
 }
-export default Home
+export default Career
