@@ -14,9 +14,10 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(logger('dev'))
 
-// TODO: Routes
+// TODO: Configure Routes
 // app.use('/api', AppRouter)
 
-db.on('error', console.error.bind(console, 'MongoDB connection error:'))
+// TODO: Write db/index.js
+// db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
 app.listen(PORT, () => console.log(`Server Running On Port:`, PORT))
