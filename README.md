@@ -1,5 +1,16 @@
-# Blog API 
+<div align="center">
+<img src="https://i.imgur.com/pzXgpfM.jpeg" height="400" />
+<h1 align="center">Full Stackathon Blog</h1>
 
+Handmade with love by [Wei Jun Xia](https://github.com/weijunxia), [Tyler Jones](https://github.com/msiroilem), & [Neil Italia](https://github.com/neilitalia)
+
+Project Started August 25, 2021
+
+[Live Demo](https://github.com/weijunxia/API_project)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Trello Board](https://github.com/weijunxia/API_project)&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;[Connect with us on LinkedIn!](https://github.com/weijunxia/API_project)
+
+</div>
+
+***
 ## Date: 08/25/2021
 
 ### Authors: Neil Italia, Tyler Jones, Wei Jun Xia
