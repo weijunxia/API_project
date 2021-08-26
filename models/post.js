@@ -4,6 +4,7 @@ const Post = new Schema(
   {
     title: { type: String, required: true },
     content: { type: String, required: true },
+    image_url: { type: String, required: true },
     author: { type: Schema.Types.ObjectId, ref: 'authors' }
   },
   { timestamps: true }
