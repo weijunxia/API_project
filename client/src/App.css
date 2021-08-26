@@ -2,3 +2,10 @@ body {
   margin: 0;
   padding: 0;
 }
+
+div.postFeed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}

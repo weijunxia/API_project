@@ -1,0 +1,21 @@
+.blogPost {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+}
+
+.postTitle {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.postAuthor {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+img.blogImage {
+  height: 200px;
+  width: 200px;
+}
