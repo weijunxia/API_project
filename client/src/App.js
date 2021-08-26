@@ -4,6 +4,7 @@ import NavBar from './components/NavBar/NavBar'
 import Banner from './components/Banner/Banner'
 import PostFeed from './components/PostFeed/PostFeed'
 import Footer from './components/Footer/Footer'
+import CreatePost from './components/CreatePost/CreatePost'
 // styling
 import './App.css'
 
@@ -19,6 +20,8 @@ function App() {
           <PostFeed />
         </div>
         <Footer />
+        <CreatePost />
+
       </div>
     </>
   )
