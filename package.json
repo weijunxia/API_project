@@ -1,0 +1,30 @@
+{
+  "name": "API_project",
+  "version": "1.0.0",
+  "description": "<div align=\"center\"> <img src=\"https://i.imgur.com/pzXgpfM.jpeg\" height=\"400\" /> <h1 align=\"center\">Full Stackathon Blog</h1> <br/>",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weijunxia/API_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/weijunxia/API_project/issues"
+  },
+  "homepage": "https://github.com/weijunxia/API_project#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^6.0.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  }
+}
