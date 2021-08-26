@@ -21,7 +21,10 @@ const createNewPost = async (req, res) => {
 
 const editPost = async (req, res) => {
   try {
-    /* const results = await */
+    const { id } = req.params
+    const updated = await Post.findbyIdAndUpdate(id, req.body, { new: true })
+    if (!updated) throw Error('Post not found')
+    return res.status(200).json(updated)
   } catch (error) {
     return res.status(500).send(error.message)
   }
@@ -29,7 +32,12 @@ const editPost = async (req, res) => {
 
 const deletePost = async (req, res) => {
   try {
-    // const results = await
+    const { id } = req.params
+    const deleted = await Post.findByIdAndDelete(id)
+    if (deleted) {
+      return res.status(200).send('Post deleted')
+    }
+    throw new Error('Post not found')
   } catch (error) {
     return res.status(500).send(error.message)
   }
