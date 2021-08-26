@@ -3,6 +3,7 @@ const cors = require('cors')
 const bodyParser = require('body-parser')
 const logger = require('morgan')
 const db = require('./db')
+const routes = require('./routes')
 // const AppRouter = require('./routes/AppRouter')
 
 const PORT = process.env.PORT || 3001
@@ -14,8 +15,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(logger('dev'))
 
-// TODO: Configure Routes
-// app.use('/api', AppRouter)
+app.use('/api', AppRouter)
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
