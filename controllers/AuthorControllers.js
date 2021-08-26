@@ -12,7 +12,7 @@ const getAllAuthors = async (req, res) => {
 const addNewAuthor = async (req, res) => {
   try {
     const results = await new Author(req.body)
-    await newAuthor.save()
+    await results.save()
     return res.status(201).json({ results })
   } catch (error) {
     return res.status(500).send(error.message)
