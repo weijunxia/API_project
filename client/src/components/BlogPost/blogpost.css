@@ -1,18 +1,31 @@
 .blogPost {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+}
+
+img.blogImage {
+  height: 200px;
+  width: auto;
   align-items: center;
   width: 75%;
 }
 
 .postTitle {
   font-size: 30px;
-  font-weight: 800;
+  font-weight: 900;
 }
 
 .postAuthor {
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.blogStory {
+  font-size: 15px;
+  font-weight: 800;
 }
 
 img.blogImage {

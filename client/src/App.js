@@ -1,9 +1,12 @@
 import React from 'react'
-
+// Components
 import NavBar from './components/NavBar/NavBar'
-import Banner from './components/Banner/Banner'
 import PostFeed from './components/PostFeed/PostFeed'
+import Banner from './components/Banner/Banner'
+// styling
 import './App.css'
+
+// hooks
 
 function App() {
   return (
