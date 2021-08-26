@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
-const AuthorSchema = require('./Author')
-const PostSchema = require('./Post')
+const AuthorSchema = require('./author')
+const PostSchema = require('./post')
 
 const Author = mongoose.model('authors', AuthorSchema)
 const Post = mongoose.model('posts', PostSchema)
