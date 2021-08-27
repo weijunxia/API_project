@@ -1,34 +1,40 @@
-.blogPost {
+.blog-post {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
   width: 600px;
 }
 
-img.blogImage {
-  height: 200px;
+div.blog-post-image-container,
+div.blog-post-text-container {
+  padding: 10px;
+}
+
+img.blog-image {
+  height: 300px;
   width: auto;
   align-items: center;
-  width: 75%;
 }
 
-.postTitle {
+h1.post-title {
   font-size: 30px;
-  font-weight: 900;
-}
-
-.postAuthor {
-  font-size: 20px;
-  font-weight: 700;
-}
-
-.blogStory {
-  font-size: 15px;
   font-weight: 800;
+  line-height: 10px;
 }
 
-img.blogImage {
+.post-author {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.blog-story {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+img.blog-image {
   height: 200px;
   width: 200px;
 }
