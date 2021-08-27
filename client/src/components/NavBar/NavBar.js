@@ -9,7 +9,9 @@ function NavBar() {
       <div className="container">
         <div className="logo">Blogr</div>
         <div className="home">Home</div>
+        <NavLink path="/">Home</NavLink>
         <NavLink to="/newpost">Create New Post</NavLink>
+        <NavLink to="/Profile">Profile</NavLink>
         <div className="profile">
           Profile
           <img src={icon} alt="user" className="profile-photo" />
