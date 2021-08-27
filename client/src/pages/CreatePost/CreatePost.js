@@ -4,6 +4,7 @@ import './createpost.css'
 import { useHistory } from 'react-router'
 import { BASE_URL } from '../../global'
 
+
 const CreatePost = (props) => {
   const history = useHistory()
   console.log(props)

@@ -15,6 +15,7 @@ import Profile from './pages/Profile'
 import Support from './components/Footer/Support'
 import { BASE_URL } from './global'
 
+
 // styling
 import './App.css'
 
