@@ -17,6 +17,13 @@ input.post-title {
   font-weight: 800;
 }
 
+input.post-image {
+  margin: 0 0 20px 0;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
 textarea.post-content {
   font-family: 'IBM Plex Sans Arabic', sans-serif;
   font-size: 14px;
