@@ -75,7 +75,7 @@ to start the back-end server.
 ## 📸 Screenshots
 
 <div align="center"><pre>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg" width="638" height="495" />&nbsp;<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg" width="638" height="495" />&nbsp;<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg" width="638" height="495" />&nbsp;<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg" width="638" height="495" />&nbsp;<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Placeholder_view_vector.svg" width="638" height="495" />
+  <img src="https://i.imgur.com/c2cOmE0.png" width="600" height="750" />&nbsp;<img src="https://i.imgur.com/THNzY7M.png" width="600" height="750" />&nbsp;<img src="https://i.imgur.com/TkKy2Af.png" width="600" height="750" />&nbsp;<img src="https://i.imgur.com/KdrgfUQ.png" width="600" height="750" />
 </pre></div>
 
 <br/>
