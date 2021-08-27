@@ -4,7 +4,9 @@
   "description": "<div align=\"center\"> <img src=\"https://i.imgur.com/pzXgpfM.jpeg\" height=\"400\" /> <h1 align=\"center\">Full Stackathon Blog</h1> <br/>",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "start": "node app.js",
+    "dev": "nodemon server.js",
+    "build": "cd client && rm -rf build && npm run build"
   },
   "repository": {
     "type": "git",

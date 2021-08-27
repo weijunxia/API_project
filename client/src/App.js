@@ -13,6 +13,7 @@ import Privacy from './components/Footer/Privacy'
 import Authors from './components/Footer/Authors'
 import Profile from './pages/Profile'
 import Support from './components/Footer/Support'
+import { BASE_URL } from './globals'
 
 // styling
 import './App.css'
@@ -22,7 +23,7 @@ function App() {
 
   useEffect(() => {
     async function getPost() {
-      const res = await axios.get('http://localhost:3001/api/posts')
+      const res = await axios.get(`${BASE_URL}/posts`)
       setPosts(res.data.results.reverse())
     }
     getPost()
