@@ -1,4 +1,4 @@
-.postFeed {
+.postFeedContainer {
   display: flex;
   flex-direction: column;
   justify-content: center;
