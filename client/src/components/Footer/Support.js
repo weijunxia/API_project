@@ -12,7 +12,7 @@ export default function Support() {
       <img src={qr} alt="payment"></img>
       <p>BTC address: 179iHUdAmmx8pMTwLAjYRzG24YxyPuU1fn</p>
       <img src="https://i.imgur.com/Tn55DrU.png"></img>
-      <p href="https://cash.app/$neilitalia">CashApp</p>
+      <p href="https://cash.app/$neilitalia">CashApp Link</p>
     </div>
   )
 }
