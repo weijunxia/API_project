@@ -12,6 +12,7 @@ import Help from './components/Footer/Help'
 import Privacy from './components/Footer/Privacy'
 import Authors from './components/Footer/Authors'
 import Profile from './pages/Profile'
+import Support from './components/Footer/Support'
 
 // styling
 import './App.css'
@@ -64,6 +65,10 @@ function App() {
           <Route exact path="/authors">
             <Banner />
             <Authors />
+          </Route>
+          <Route exact path="/support">
+            <Banner />
+            <Support />
           </Route>
         </Switch>
       </footer>
