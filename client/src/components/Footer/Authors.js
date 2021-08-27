@@ -4,7 +4,8 @@ import './authors.css'
 function Authors() {
   return (
     <div>
-      <h3>Authors</h3>
+      <h3>Authors:</h3>
+      <h1>YOU</h1>
     </div>
   )
 }
