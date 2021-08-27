@@ -10,9 +10,14 @@ const CreatePost = () => {
           placeholder="Post Title"
           className="post-title"
         ></input>
+        <input
+          type="text"
+          placeholder="Image URL"
+          className="post-image"
+        ></input>
         <textarea
           type="text"
-          placeholder="Write away"
+          placeholder="Write away..."
           className="post-content"
         ></textarea>
         <button type="submit" className="post-submit">
