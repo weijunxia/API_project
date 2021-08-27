@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Route, Switch } from 'react-router-dom'
+import axios from 'axios'
 // Components
 import NavBar from './components/NavBar/NavBar'
 import Banner from './components/Banner/Banner'
@@ -11,6 +12,16 @@ import CreatePost from './pages/CreatePost/CreatePost'
 import './App.css'
 
 function App() {
+  const [posts, setPosts] = useState([])
+
+  useEffect(() => {
+    async function getPost() {
+      const res = await axios.get('http://localhost:3001/api/posts')
+      setPosts(res.results)
+    }
+    getPost()
+  }, [])
+
   return (
     <div className="App">
       <header>
