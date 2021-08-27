@@ -31,13 +31,14 @@ function App() {
       <header>
         <NavBar />
       </header>
-      <Banner />
       <main>
         <Switch>
           <Route exact path="/">
+            <Banner />
             <PostFeed posts={posts} />
           </Route>
           <Route exact path="/newpost">
+            <Banner />
             <CreatePost posts={posts} setPosts={setPosts} />
           </Route>
         </Switch>
@@ -45,15 +46,18 @@ function App() {
       <footer>
         <Switch>
           <Route exact path="/about">
+            <Banner />
             <About />
           </Route>
           <Route exact path="/help">
+            <Banner />
             <Help />
           </Route>
           <Route exact path="/privacy">
             <Privacy />
           </Route>
           <Route exact path="/authors">
+            <Banner />
             <Authors />
           </Route>
         </Switch>

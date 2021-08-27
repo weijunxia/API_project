@@ -1,6 +1,5 @@
 import React from 'react'
 import './blogpost.css'
-import placeholder from '../images/placeholder.png'
 
 export default function BlogPost(props) {
   return (
