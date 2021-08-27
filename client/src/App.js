@@ -34,7 +34,7 @@ function App() {
             <PostFeed posts={posts} />
           </Route>
           <Route exact path="/newpost">
-            <CreatePost />
+            <CreatePost posts={posts} setPosts={setPosts} />
           </Route>
         </Switch>
         <Footer />
