@@ -31,9 +31,6 @@ textarea.post-content {
   height: 200px;
 }
 
-input.post-content::placeholder {
-}
-
 button.post-submit {
   margin: 20px 0;
   font-family: 'IBM Plex Sans Arabic', sans-serif;
