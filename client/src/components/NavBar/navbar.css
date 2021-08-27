@@ -6,13 +6,14 @@
   position: sticky;
   top: 0;
   align-items: center;
-  color: white;
+  color: red;
 }
 
 .logo {
   flex: 1;
   margin-left: 1%;
   font-size: 30px;
+  text-align: left;
 }
 
 .profile {
