@@ -11,6 +11,7 @@ import About from './components/Footer/About'
 import Help from './components/Footer/Help'
 import Privacy from './components/Footer/Privacy'
 import Authors from './components/Footer/Authors'
+import Profile from './pages/Profile'
 
 // styling
 import './App.css'
@@ -40,6 +41,10 @@ function App() {
           <Route exact path="/newpost">
             <Banner />
             <CreatePost posts={posts} setPosts={setPosts} />
+          </Route>
+          <Route exact path="/profile">
+            <Banner />
+            <Profile />
           </Route>
         </Switch>
       </main>
