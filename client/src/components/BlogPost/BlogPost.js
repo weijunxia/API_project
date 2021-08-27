@@ -2,7 +2,9 @@ import React from 'react'
 import './blogpost.css'
 import placeholder from '../images/placeholder.png'
 
+
 export default function BlogPost({ title, author, image, story, date }) {
+
   return (
     <>
       <div className="blogPost">

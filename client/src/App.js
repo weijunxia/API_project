@@ -17,7 +17,7 @@ function App() {
   useEffect(() => {
     async function getPost() {
       const res = await axios.get('http://localhost:3001/api/posts')
-      setPosts(res.results)
+      setPosts(res.data.results)
     }
     getPost()
   }, [])
@@ -31,7 +31,7 @@ function App() {
       <main>
         <Switch>
           <Route exact path="/">
-            <PostFeed />
+            <PostFeed posts={posts} />
           </Route>
           <Route exact path="/newpost">
             <CreatePost />
