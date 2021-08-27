@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import axios from 'axios'
 import './createpost.css'
 import { useHistory } from 'react-router'
+import { BASE_URL } from '../../global'
+
 const CreatePost = (props) => {
   const history = useHistory()
   console.log(props)
@@ -17,7 +19,7 @@ const CreatePost = (props) => {
       image_url: postImageURL
     }
     axios
-      .post('http://localhost:3001/api/posts', newPostData)
+      .post(`${BASE_URL}/posts`, newPostData)
       .then(function (response) {
         console.log(response)
         const newPost = response.data.results
