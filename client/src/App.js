@@ -17,7 +17,7 @@ function App() {
   useEffect(() => {
     async function getPost() {
       const res = await axios.get('http://localhost:3001/api/posts')
-      setPosts(res.data.results)
+      setPosts(res.data.results.reverse())
     }
     getPost()
   }, [])
