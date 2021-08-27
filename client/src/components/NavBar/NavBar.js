@@ -7,12 +7,14 @@ function NavBar() {
   return (
     <div className="container">
       <div className="logo">OnlyBlogs</div>
-      <NavLink to="/">
-        <div className="home">Home</div>
+      <NavLink to="/" className="navBarLink">
+        <div className="navBar">Home</div>
       </NavLink>
-      <NavLink to="/newpost">Create New Post</NavLink>
-      <NavLink to="/profile">
-        <div className="profile">
+      <NavLink to="/newpost" className="navBarLink">
+        <div className="navBar">Create New Post</div>
+      </NavLink>
+      <NavLink to="/profile" className="navBarLink">
+        <div className="navBar">
           Profile
           <img src={icon} alt="user" className="profile-photo" />
         </div>
