@@ -6,7 +6,7 @@ function PostFeed(props) {
   return (
     <div className="postFeedContainer">
       {props.posts.map((post) => (
-        <BlogPost {...post} />
+        <BlogPost post={post} />
       ))}
       {/* <BlogPost />
       <BlogPost />
