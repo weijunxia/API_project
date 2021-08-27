@@ -1,9 +1,22 @@
 .blogPost {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  align-items: center;
-  width: 500px;
+  align-items: flex-start;
+  width: 600px;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  margin-top: 30px;
+}
+
+div.postImageContainer {
+  min-width: 250px;
+  min-height: 250px;
+  background-size: cover;
+  background-position: center;
+}
+
+div.postContentContainer {
+  padding: 0 20px 20px 20px;
 }
 
 img.blogImage {
@@ -19,13 +32,13 @@ img.blogImage {
 }
 
 .postAuthor {
-  font-size: 20px;
-  font-weight: 700;
+  font-size: 15px;
+  font-weight: 400;
 }
 
 .blogStory {
   font-size: 15px;
-  font-weight: 800;
+  font-weight: 400;
 }
 
 img.blogImage {
