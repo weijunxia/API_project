@@ -6,7 +6,7 @@ import icon from '../images/user_favicon.png'
 function NavBar() {
   return (
     <div className="container">
-      <div className="logo">Blogr</div>
+      <div className="logo">OnlyBlogs</div>
       <NavLink to="/">
         <div className="home">Home</div>
       </NavLink>
