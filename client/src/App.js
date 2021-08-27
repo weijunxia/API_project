@@ -33,7 +33,7 @@ function App() {
           <Route exact path="/">
             <PostFeed />
           </Route>
-          <Route exact path="/NewPost">
+          <Route exact path="/newpost">
             <CreatePost />
           </Route>
         </Switch>
