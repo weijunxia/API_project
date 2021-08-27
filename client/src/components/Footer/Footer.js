@@ -17,6 +17,9 @@ export default function Footer() {
       <NavLink to="/authors" className="navLink">
         <div className="footerDiv">Authors</div>
       </NavLink>
+      <NavLink to="/support" className="navLink">
+        <div className="footerDiv">Support</div>
+      </NavLink>
     </div>
   )
 }
