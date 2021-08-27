@@ -4,7 +4,7 @@
   "description": "<div align=\"center\"> <img src=\"https://i.imgur.com/pzXgpfM.jpeg\" height=\"400\" /> <h1 align=\"center\">Full Stackathon Blog</h1> <br/>",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node server.js",
     "dev": "nodemon server.js",
     "build": "cd client && rm -rf build && npm run build"
   },
