@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 import './createpost.css'
-
-const CreatePost = () => {
+import { useHistory } from 'react-router'
+const CreatePost = (props) => {
+  const history = useHistory()
+  console.log(props)
   const [postTitle, setPostTitle] = useState('')
   const [postImageURL, setPostImageURL] = useState('')
   const [postContent, setPostContent] = useState('')
@@ -18,6 +20,10 @@ const CreatePost = () => {
       .post('http://localhost:3001/api/posts', newPostData)
       .then(function (response) {
         console.log(response)
+        const newPost = response.data.results
+        console.log(newPost)
+        props.setPosts([newPost, ...props.posts])
+        history.push('/')
       })
       .catch(function (error) {
         console.log(error)
