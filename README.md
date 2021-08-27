@@ -16,7 +16,7 @@ Project Started August 25, 2021
 
 ## 📝 About
 
-This is a magic blog made with unicorns and rainbows. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra elit eget dignissim tempor. Suspendisse pretium suscipit fermentum. Donec ut elit nec orci condimentum suscipit nec eu quam. Nullam quis. Integer nec arcu nisl. Donec pellentesque, mauris ut ultrices euismod, dui diam luctus libero, sed scelerisque dolor sem sed urna.
+This is a blog made with React as our front-end, Node.js and Express as our back-end, and MongoDB as our database. OnlyBlogs is the best place to share your thoughts and blog about anything you want.
 
 <br/>
 
@@ -28,7 +28,7 @@ This is a magic blog made with unicorns and rainbows. Lorem ipsum dolor sit amet
 
 ## 🛠 App Functionality
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec viverra elit eget dignissim tempor. Suspendisse pretium suscipit fermentum. Donec ut elit nec orci condimentum suscipit nec eu quam. Nullam quis. Integer nec arcu nisl. Donec pellentesque, mauris ut ultrices euismod, dui diam luctus libero, sed scelerisque dolor sem sed urna.
+All blog posts are displayed in the home page starting with the most recent posts at the top, you can navigate to the Create New Post page to submit a new blog post. You can add a title for your blog post as well as an image, and your main content.
 
 <br/>
 
@@ -40,25 +40,35 @@ Some scripts to help you jumpstart contributing to this project
 
 To clone down this repository to your machine, then
 
-### `cd API_project.git`
+### `cd API_project`
 
 to move into the project, then
 
 ### `npm install`
 
-to install main dependencies, then
-
-### `npm install --dev morgan [etc etc etc]`
-
-for development dependencies, then
+to install dependencies for the Node.js, Express and Mongoose back-end, then
 
 ### `cd client`
 
-to move into the front-end,
+to move into the React front-end,
+
+### `npm install`
+
+to install React dependencies, then
 
 ### `npm start`
 
-to start the react development server
+to start the React front-end live server, then on another terminal
+
+### `cd ..`
+
+to go back to the root directory of the app,
+
+### `npm run dev`
+
+to start the back-end server.
+
+#### Make sure you have all the right variables in your .env file
 
 <br/>
 
@@ -93,5 +103,6 @@ to start the react development server
 <br/>
 
 ## 📢 Credits & Shoutouts
-
-Lorde - Solar Power
+MongoDB Atlas
+MDN
+W3Schools
