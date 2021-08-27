@@ -13,6 +13,7 @@ import Privacy from './components/Footer/Privacy'
 import Authors from './components/Footer/Authors'
 import Profile from './pages/Profile'
 import Support from './components/Footer/Support'
+import BASE_URL from '../src/pages/global'
 
 // styling
 import './App.css'

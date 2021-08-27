@@ -4,7 +4,9 @@
   "description": "<div align=\"center\"> <img src=\"https://i.imgur.com/pzXgpfM.jpeg\" height=\"400\" /> <h1 align=\"center\">Full Stackathon Blog</h1> <br/>",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon server.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "build": "cd client && rm -rf build && npm install && npm run build"
   },
   "repository": {
     "type": "git",
@@ -24,10 +26,10 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "mongoose": "^5.13.8",
+    "morgan": "^1.10.0",
     "react-router-dom": "^5.2.0"
   },
   "devDependencies": {
-    "morgan": "^1.10.0",
     "nodemon": "^2.0.12"
   }
 }
