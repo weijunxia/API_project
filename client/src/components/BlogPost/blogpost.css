@@ -1,13 +1,11 @@
 .blogPost {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   width: 600px;
-<<<<<<< HEAD
   border: black solid 1px;
   margin: 5px;
-=======
   font-family: 'IBM Plex Sans Arabic', sans-serif;
   margin-top: 30px;
 }
@@ -15,13 +13,14 @@
 div.postImageContainer {
   min-width: 250px;
   min-height: 250px;
+  border-radius: 5%;
+  margin: 5px;
   background-size: cover;
   background-position: center;
 }
 
 div.postContentContainer {
   padding: 0 20px 20px 20px;
->>>>>>> 5682ff44df224d61d8278a0ea7c5f20d41b6b4b7
 }
 
 img.blogImage {
@@ -38,17 +37,13 @@ img.blogImage {
 }
 
 .postAuthor {
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .blogStory {
   font-size: 15px;
-<<<<<<< HEAD
   font-weight: 500;
-=======
-  font-weight: 400;
->>>>>>> 5682ff44df224d61d8278a0ea7c5f20d41b6b4b7
 }
 
 img.blogImage {

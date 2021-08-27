@@ -38,6 +38,7 @@ function App() {
             <PostFeed posts={posts} />
           </Route>
           <Route exact path="/newpost">
+            <Banner />
             <CreatePost posts={posts} setPosts={setPosts} />
           </Route>
         </Switch>
