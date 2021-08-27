@@ -1,6 +1,5 @@
 const mongoose = require('mongoose')
-const dotenv = require('dotenv')
-dotenv.config()
+require('dotenv').config()
 
 let MONGODB_URI =
   process.env.NODE_ENV === 'production'
