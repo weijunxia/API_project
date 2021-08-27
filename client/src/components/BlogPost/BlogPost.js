@@ -11,7 +11,9 @@ export default function BlogPost(props) {
       ></div>
       <div className="postContentContainer">
         <div className="postTitle">{props.title}</div>
-        <div className="postAuthor">Author: {props.author}</div>
+        <div className="postAuthor">
+          Author: {props.author ? props.author : 'You'}
+        </div>
         <div className="blogStory">{props.content}</div>
         <div>{props.date}</div>
       </div>
