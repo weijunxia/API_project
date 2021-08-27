@@ -6,7 +6,9 @@ const logger = require('morgan')
 const dotenv = require('dotenv')
 dotenv.config()
 const db = require('./db')
+// const routes = require('./routes')
 const AppRouter = require('./routes/AppRouter')
+const path = require('path')
 
 const PORT = process.env.PORT || 3001
 

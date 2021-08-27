@@ -2,7 +2,8 @@ import React, { useState } from 'react'
 import axios from 'axios'
 import './createpost.css'
 import { useHistory } from 'react-router'
-import { BASE_URL } from '../../globals'
+import { BASE_URL } from '../../global'
+
 
 const CreatePost = (props) => {
   const history = useHistory()
