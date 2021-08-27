@@ -1,10 +1,12 @@
 const express = require('express')
+const path = require('path')
 const cors = require('cors')
 const bodyParser = require('body-parser')
 const logger = require('morgan')
 const dotenv = require('dotenv')
 dotenv.config()
 const db = require('./db')
+// const routes = require('./routes')
 const AppRouter = require('./routes/AppRouter')
 const path = require('path')
 

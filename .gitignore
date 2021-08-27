@@ -2,6 +2,7 @@ node_modules
 .DS_Store
 .env
 package-lock.json
+build
 
 client/package-lock.json
 client/node_modules
