@@ -9,7 +9,7 @@ export default function BlogPost(props) {
         <div className="postTitle">{props.title}</div>
         <div className="postAuthor">Author: {props.author}</div>
         <img
-          src={placeholder}
+          src={props.image_url}
           alt={`${placeholder} header`}
           className="blogImage"
         />
