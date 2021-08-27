@@ -6,13 +6,8 @@ function PostFeed(props) {
   return (
     <div className="postFeedContainer">
       {props.posts.map((post) => (
-        <BlogPost post={post} />
+        <BlogPost key={post._id} {...post} />
       ))}
-      {/* <BlogPost />
-      <BlogPost />
-      <BlogPost />
-      <BlogPost />
-      <BlogPost /> */}
     </div>
   )
 }

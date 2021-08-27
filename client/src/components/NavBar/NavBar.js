@@ -10,8 +10,8 @@ function NavBar() {
       <NavLink to="/">
         <div className="home">Home</div>
       </NavLink>
-      <NavLink to="/NewPost">Create New Post</NavLink>
-      <NavLink to="/Profile">
+      <NavLink to="/newpost">Create New Post</NavLink>
+      <NavLink to="/profile">
         <div className="profile">
           Profile
           <img src={icon} alt="user" className="profile-photo" />
