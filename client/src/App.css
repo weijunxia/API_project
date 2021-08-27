@@ -1,7 +1,11 @@
 body {
   margin: 0;
   padding: 0;
+
+  height: 100vh;
+
   font-family: 'IBM Plex Sans Arabic', sans-serif;
+
 }
 
 div.postFeed {
