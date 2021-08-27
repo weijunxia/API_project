@@ -1,4 +1,4 @@
-.container {
+.nav-container {
   display: flex;
   height: 40px;
   width: 100%;
@@ -7,11 +7,18 @@
   top: 0;
   align-items: center;
   color: white;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  font-weight: 800;
 }
 
 .logo {
   flex: 1;
-  margin-left: 5px;
+  margin-left: 10px;
+}
+
+.new-post-link {
+  text-decoration: none;
+  color: #2fb6ce;
 }
 
 .create-post,
@@ -27,7 +34,7 @@
 }
 
 .profile-photo {
-  margin-left: 5px;
+  margin: 0 10px 0 5px;
   height: 15px;
   width: 15px;
   border-radius: 50%;
