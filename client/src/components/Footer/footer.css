@@ -1,9 +1,23 @@
 div.footerContainer {
   display: grid;
-  grid-template-columns: repeat(5, auto);
+  grid-template-columns: repeat(4, auto);
   height: auto;
   width: 100%;
   margin-top: 10vh;
   color: white;
   background-color: black;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navLink {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footerDiv {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }

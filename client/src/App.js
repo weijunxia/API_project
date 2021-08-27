@@ -7,6 +7,10 @@ import Banner from './components/Banner/Banner'
 import PostFeed from './components/PostFeed/PostFeed'
 import Footer from './components/Footer/Footer'
 import CreatePost from './pages/CreatePost/CreatePost'
+import About from './components/Footer/About'
+import Help from './components/Footer/Help'
+import Privacy from './components/Footer/Privacy'
+import Authors from './components/Footer/Authors'
 
 // styling
 import './App.css'
@@ -37,8 +41,24 @@ function App() {
             <CreatePost posts={posts} setPosts={setPosts} />
           </Route>
         </Switch>
-        <Footer />
       </main>
+      <footer>
+        <Switch>
+          <Route exact path="/about">
+            <About />
+          </Route>
+          <Route exact path="/help">
+            <Help />
+          </Route>
+          <Route exact path="/privacy">
+            <Privacy />
+          </Route>
+          <Route exact path="/authors">
+            <Authors />
+          </Route>
+        </Switch>
+      </footer>
+      <Footer />
     </div>
   )
 }

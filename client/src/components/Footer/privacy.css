@@ -1,0 +1,9 @@
+.privacyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.privacy {
+  width: 50%;
+}
