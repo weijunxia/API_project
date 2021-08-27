@@ -9,11 +9,11 @@ import Footer from './components/Footer/Footer'
 import CreatePost from './pages/CreatePost/CreatePost'
 import About from './components/Footer/About'
 import Help from './components/Footer/Help'
+import Privacy from './components/Footer/Privacy'
+import Authors from './components/Footer/Authors'
 
 // styling
 import './App.css'
-import Privacy from './components/Footer/Privacy'
-import Authors from './components/Footer/Authors'
 
 function App() {
   const [posts, setPosts] = useState([])

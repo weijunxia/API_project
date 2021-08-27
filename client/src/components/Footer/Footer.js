@@ -9,17 +9,17 @@ import './footer.css'
 export default function Footer() {
   return (
     <div className="footerContainer">
-      <NavLink to="/about">
-        <About />
+      <NavLink to="/about" className="navLink">
+        <div className="footerDiv">About</div>
       </NavLink>
-      <NavLink to="/help">
-        <Help />
+      <NavLink to="/help" className="navLink">
+        <div className="footerDiv">Help</div>
       </NavLink>
-      <NavLink to="/privacy">
-        <Privacy />
+      <NavLink to="/privacy" className="navLink">
+        <div className="footerDiv">Privacy</div>
       </NavLink>
-      <NavLink to="/authors">
-        <Authors />
+      <NavLink to="/authors" className="navLink">
+        <div className="footerDiv">Authors</div>
       </NavLink>
     </div>
   )
