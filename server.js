@@ -5,6 +5,7 @@ const logger = require('morgan')
 const dotenv = require('dotenv')
 dotenv.config()
 const db = require('./db')
+// const routes = require('./routes')
 const AppRouter = require('./routes/AppRouter')
 
 const PORT = process.env.PORT || 3001
@@ -17,13 +18,6 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(logger('dev'))
 
 app.use('/api', AppRouter)
-
-if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, 'client/build')))
-  app.get('*', (req, res) => {
-    res.sendFile(path.join(`${__dirname}/client/build/index.html`))
-  })
-}
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
